@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
-  <!-- Контур книги -->
-  <rect x="15" y="15" width="50" height="50" fill="none" stroke="#ebebeb" stroke-width="2" rx="4"/>
-  
-  <!-- Линия раздела страниц -->
-  <line x1="40" y1="15" x2="40" y2="65" stroke="#ebebeb" stroke-width="2"/>
-  
-  <!-- Закладка -->
-  <polygon points="40,15 50,15 50,35 45,30 40,35" fill="#ebebeb"/>
-  
-  <!-- Декоративные линии текста -->
-  <line x1="20" y1="25" x2="35" y2="25" stroke="#ebebeb" stroke-width="1"/>
-  <line x1="20" y1="35" x2="35" y2="35" stroke="#ebebeb" stroke-width="1"/>
-  <line x1="45" y1="25" x2="60" y2="25" stroke="#ebebeb" stroke-width="1"/>
-  <line x1="45" y1="35" x2="60" y2="35" stroke="#ebebeb" stroke-width="1"/>
-</svg>
+
