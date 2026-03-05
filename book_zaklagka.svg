@@ -1,20 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
-  <!-- Красный фон (как на скриншоте) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Книга растянута почти на всю ширину и высоту -->
+  <!-- Основные границы книги (слева 15, справа 85, сверху 15, снизу 85) -->
+  <rect x="15" y="15" width="70" height="70" rx="3" fill="none" stroke="#ffffff" stroke-width="3"/>
 
-  <!-- Книга (белый контур) -->
-  <rect x="30" y="25" width="60" height="50" rx="2" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  <!-- Линия переплета (сдвинута левее, чтобы книга выглядела открытой) -->
+  <line x1="28" y1="15" x2="28" y2="85" stroke="#ffffff" stroke-width="3"/>
 
-  <!-- Переплет книги -->
-  <line x1="40" y1="25" x2="40" y2="75" stroke="#ffffff" stroke-width="2"/>
+  <!-- Внутренние страницы (для детализации, но тоньше) -->
+  <rect x="34" y="22" width="45" height="56" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.8"/>
 
-  <!-- Страницы (внутри) -->
-  <rect x="45" y="30" width="40" height="40" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+  <!-- Закладка теперь ОЧЕНЬ большая и заметная -->
+  <!-- Она начинается сверху и уходит почти до низа книги -->
+  <path d="M65 15 L82 15 L82 75 L65 64 L48 75 Z" fill="#ffffff" opacity="1"/>
+  
+  <!-- Треугольный вырез внизу закладки (глубокий и четкий) -->
+  <path d="M65 75 L58 82 L72 82 Z" fill="#ffffff" opacity="1"/>
 
-  <!-- Закладка (увеличенная, яркая) -->
-  <path d="M70 25 L85 25 L85 65 L70 55 L55 65 Z" fill="#ffffff" opacity="0.95"/>
-  <!-- Треугольный вырез внизу закладки -->
-  <path d="M70 65 L65 70 L75 70 Z" fill="#ffffff" opacity="0.95"/>
-
-  <!-- Декоративный элемент сверху закладки -->
-  <circle cx="70" cy="27" r="2.5" fill="#ffffff"/>
+  <!-- Крепление закладки сверху (кружок) -->
+  <circle cx="65" cy="18" r="3" fill="#ffffff"/>
 </svg>
