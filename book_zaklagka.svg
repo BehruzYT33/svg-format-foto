@@ -1,24 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-  <!-- Обложка книги (фон) -->
-  <rect x="25" y="20" width="50" height="60" rx="2" fill="#ffffff" opacity="0.1"/>
-  
-  <!-- Контур обложки -->
-  <path d="M25 20 h50 v60 h-50 z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
-  
-  <!-- Линия переплета (корешок) -->
-  <line x1="35" y1="20" x2="35" y2="80" stroke="#ffffff" stroke-width="1.5"/>
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!-- Красный фон (как на скриншоте) -->
+
+  <!-- Книга (белый контур) -->
+  <rect x="30" y="25" width="60" height="50" rx="2" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+
+  <!-- Переплет книги -->
+  <line x1="40" y1="25" x2="40" y2="75" stroke="#ffffff" stroke-width="2"/>
+
   <!-- Страницы (внутри) -->
-  <path d="M40 25 h30 v50 h-30 z" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.6"/>
-  <path d="M45 30 h20 v40 h-20 z" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
-  
-  <!-- Закладка (лента) -->
-  <!-- Основной хвост ленты -->
-  <path d="M55 20 l10 0 l0 35 l-10 -5 l-10 5 z" fill="#ffffff" opacity="0.9"/>
-  
-  <!-- Треугольный вырез внизу закладки (для красоты) -->
-  <path d="M55 55 l-5 5 h10 z" fill="#ffffff" opacity="0.9"/>
-  
-  <!-- Узелок или крепление закладки сверху -->
-  <circle cx="55" cy="22" r="2" fill="#ffffff"/>
+  <rect x="45" y="30" width="40" height="40" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+
+  <!-- Закладка (увеличенная, яркая) -->
+  <path d="M70 25 L85 25 L85 65 L70 55 L55 65 Z" fill="#ffffff" opacity="0.95"/>
+  <!-- Треугольный вырез внизу закладки -->
+  <path d="M70 65 L65 70 L75 70 Z" fill="#ffffff" opacity="0.95"/>
+
+  <!-- Декоративный элемент сверху закладки -->
+  <circle cx="70" cy="27" r="2.5" fill="#ffffff"/>
 </svg>
