@@ -1,13 +1,5 @@
-<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <g stroke="#FFFFFF" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
-
-    <!-- Улучшенная карта -->
-    <path d="M12 25 L32 15 L52 25 L72 15 L88 25 L88 75 L68 85 L48 75 L28 85 L12 75 Z"/>
-
-    <!-- Внутренние декоративные сгибы -->
-    <path d="M32 15 L32 75"/>
-    <path d="M52 25 L52 85"/>
-    <path d="M72 15 L72 75"/>
-
-  </g>
+<svg width="180" height="180" viewBox="0 0 100 100" style="position:absolute; right:-40px; bottom:-30px; opacity:0.35;">
+  <circle cx="50" cy="50" r="38" stroke="#FFFFFF" stroke-width="8" fill="none"/>
+  <ellipse cx="50" cy="50" rx="18" ry="38" stroke="#FFFFFF" stroke-width="8" fill="none"/>
+  <ellipse cx="50" cy="50" rx="32" ry="14" stroke="#FFFFFF" stroke-width="8" fill="none"/>
 </svg>
