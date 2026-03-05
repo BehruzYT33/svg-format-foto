@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <!-- Внешний круг -->
+  <circle cx="45" cy="45" r="40" fill="none" stroke="#ebebeb" stroke-width="2"/>
+  
+  <!-- Музыкальная нота -->
+  <line x1="35" y1="25" x2="35" y2="55" stroke="#ebebeb" stroke-width="2"/>
+  <circle cx="35" cy="60" r="6" fill="#ebebeb"/>
+  
+  <line x1="55" y1="20" x2="55" y2="50" stroke="#ebebeb" stroke-width="2"/>
+  <circle cx="55" cy="55" r="6" fill="#ebebeb"/>
+  
+  <!-- Соединяющая перекладина -->
+  <line x1="35" y1="25" x2="55" y2="20" stroke="#ebebeb" stroke-width="2"/>
+  
+  <!-- Декоративные элементы -->
+  <text x="20" y="80" font-size="12" fill="#ebebeb">♪</text>
+  <text x="65" y="80" font-size="12" fill="#ebebeb">♫</text>
+</svg>
