@@ -1,0 +1,124 @@
+   /* Стили для валидации */
+        .input_with-message {
+            border-color: #ff9800 !important;
+        }
+        .input_with-message:focus {
+            border-color: #ff9800 !important;
+            box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.2) !important;
+        }
+        
+        /* Стили для кнопки Актив ОО */
+        .header-anon__button a.button.button_purple_outline {
+            background: transparent !important;
+            border-color: #9b59b6 !important;
+            color: #9b59b6 !important;
+            border-width: 2px !important;
+            border-style: solid !important;
+        }
+        
+        .header-anon__button a.button.button_purple_outline:hover {
+            background: #9b59b6 !important;
+            border-color: #9b59b6 !important;
+            color: #ffffff !important;
+        }
+        
+        .header-anon__button a.button.button_purple_outline:active {
+            background: #8e44ad !important;
+            border-color: #8e44ad !important;
+            color: #ffffff !important;
+        }
+        
+        /* Скрываем кнопку локализации */
+        #localization-button {
+            display: none !important;
+        }
+ /* Выравнивание кнопок */
+        .header-anon__buttons {
+            display: flex !important;
+            align-items: center !important;
+            gap: 15px !important;
+        }
+        
+        .header-anon__button {
+            margin: 0 !important;
+        }
+        
+        .button_margin-left-20 {
+            margin-left: 0 !important;
+        }
+      .login__header_uz {
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#ff6b00), to(#b64500));
+    background-image: -webkit-linear-gradient(top, #ff6b00, #b64500);
+    background-image: -moz-linear-gradient(top, #ff6b00, #b64500);
+    background-image: -o-linear-gradient(top, #ff6b00, #b64500);
+    background-image: -ms-linear-gradient(top, #ff6b00, #b64500);
+    background-image: linear-gradient(to bottom, #ff6b00, #b64500);
+    border-top: none;
+}
+.button_light-green {
+    font-family: "Open Sans";
+    font-size: 20px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+    color: #fff;
+    height: 49px;
+    padding: 0;
+    opacity: .95;
+    border: 1px solid #00a86b;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient(top, #00d97e, #00a86b);
+    background-image: -o-linear-gradient(top, #00d97e, #00a86b);
+    background-image: linear-gradient(to bottom, #00d97e, #00a86b);
+    background-color: #00a86b;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6);
+}
+.header-anon__button a.button_blue {
+    color: #ff6b00;
+    border-color: #ff6b00;
+}
+
+.header-anon__button a.button {
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans Semibold";
+    box-sizing: border-box;
+    background: 0 0;
+}
+
+/* Эффект при наведении (дополнительно) */
+.header-anon__button a.button_blue:hover {
+    color: #fff;
+    background-color: #ff6b00;
+    border-color: #ff6b00;
+    transition: all 0.3s ease;
+}
+.header-anon__button a.button {
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans Semibold";
+    box-sizing: border-box;
+    background: 0 0;
+}
+
+.header-anon__button a.button_green {
+    color: #ffdd00;
+    border-color: #ffdd00;
+    margin-left: 10px;
+}
+
+/* Эффект при наведении */
+.header-anon__button a.button_green:hover {
+    color: #000;
+    background-color: #ffdd00;
+    border-color: #ffdd00;
+    transition: all 0.3s ease;
+}
