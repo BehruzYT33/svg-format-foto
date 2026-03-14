@@ -122,3 +122,49 @@
     border-color: #ffdd00;
     transition: all 0.3s ease;
 }
+
+ /* Стили для попапа регионов */
+        .region-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .region-popup.active {
+            display: block;
+        }
+        
+        .region-popup__overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 999;
+        }
+        
+        .region-popup__overlay.active {
+            display: block;
+        }
+        
+        .radio-button {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        
+        .radio-button__input {
+            margin-right: 8px;
+        }
+  
