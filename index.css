@@ -1,0 +1,99 @@
+/* Красивый цвет для кнопки Актив ОО - такой же стиль как у Войти (с обводкой) */
+.header-anon__button a.button.button_purple_outline {
+    background: transparent !important;
+    border-color: #9b59b6 !important;
+    color: #9b59b6 !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+}
+
+.header-anon__button a.button.button_purple_outline:hover {
+    background: #9b59b6 !important;
+    border-color: #9b59b6 !important;
+    color: #ffffff !important;
+}
+
+.header-anon__button a.button.button_purple_outline:active {
+    background: #8e44ad !important;
+    border-color: #8e44ad !important;
+    color: #ffffff !important;
+}
+
+/* Скрываем кнопку локализации */
+#localization-button {
+    display: none !important;
+}
+
+/* Выравнивание кнопок */
+.header-anon__buttons {
+    display: flex !important;
+    align-items: center !important;
+    gap: 15px !important; /* Увеличили расстояние между кнопками */
+    flex-wrap: nowrap !important; /* Запрещаем перенос */
+}
+.header-anon__button a.button_blue {
+    color: #ff6b00;
+    border-color: #ff6b00;
+}
+
+.header-anon__button a.button {
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans Semibold";
+    box-sizing: border-box;
+    background: 0 0;
+}
+
+/* Эффект при наведении (дополнительно) */
+.header-anon__button a.button_blue:hover {
+    color: #fff;
+    background-color: #ff6b00;
+    border-color: #ff6b00;
+    transition: all 0.3s ease;
+}
+.header-anon__button a.button {
+    font-size: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans Semibold";
+    box-sizing: border-box;
+    background: 0 0;
+}
+
+.header-anon__button a.button_green {
+    color: #ffdd00;
+    border-color: #ffdd00;
+    margin-left: 10px;
+}
+
+/* Эффект при наведении */
+.header-anon__button a.button_green:hover {
+    color: #000;
+    background-color: #ffdd00;
+    border-color: #ffdd00;
+    transition: all 0.3s ease;
+}
+
+.header-anon__button a.button_green {
+    color: #ffdd00;
+    border: 2px solid #ffdd00;  /* Меняем цвет рамки */
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-align: center;
+    font-family: "Open Sans Semibold";
+    box-sizing: border-box;
+    text-decoration: none;
+    background: 0 0;
+    min-width: 183px;
+    width: 100%;
+    margin-left: 10px;
+}
