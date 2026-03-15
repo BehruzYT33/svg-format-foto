@@ -97,3 +97,16 @@
     width: 100%;
     margin-left: 10px;
 }
+.footer__menu__buttons .button_green {
+    color: #ffdd00;
+    border: 2px solid #ffdd00;
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-align: center;
+    font-family: "Open Sans Semibold";
+    box-sizing: border-box;
+    text-decoration: none;
+    background: 0 0;
+    min-width: 183px;
+    width: 100%;
+}
