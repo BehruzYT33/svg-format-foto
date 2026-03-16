@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%"
+     height="100%"
+     viewBox="-10 -90 1074 1030">
+
+  <defs>
+    <style type="text/css"><![CDATA[
+      .area {
+        stroke-width: 3.3;
+        fill: #cccccc; /* серый цвет */
+        stroke: #666666;
+      }
+    ]]></style>
+  </defs>
+
+  <g>
+    <path id="190" class="area" d="M 921.92578 296.91992 L 910.57227 298 ... z"/>
+    <path id="188" class="area" d="m 369.34145,15.015649 ... z"/>
+    <path id="183" class="area" d="m 336.79061,29.965599 ... z"/>
+    <path id="185" class="area" d="m 155.94686,275.47053 ... z"/>
+    <path id="187" class="area" d="m 223.51193,203.81916 ... z"/>
+    <path id="186" class="area" d="m 376.35373,351.90073 ... z"/>
+  </g>
+</svg>
