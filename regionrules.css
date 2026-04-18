@@ -42,4 +42,51 @@
         .radio-button__input {
             margin-right: 8px;
         }
-  
+     /* Стили для валидации */
+        .input_with-message {
+            border-color: #ff9800 !important;
+        }
+        .input_with-message:focus {
+            border-color: #ff9800 !important;
+            box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.2) !important;
+        }
+        
+        /* Стили для кнопки Актив ОО */
+        .header-anon__button a.button.button_purple_outline {
+            background: transparent !important;
+            border-color: #9b59b6 !important;
+            color: #9b59b6 !important;
+            border-width: 2px !important;
+            border-style: solid !important;
+        }
+        
+        .header-anon__button a.button.button_purple_outline:hover {
+            background: #9b59b6 !important;
+            border-color: #9b59b6 !important;
+            color: #ffffff !important;
+        }
+        
+        .header-anon__button a.button.button_purple_outline:active {
+            background: #8e44ad !important;
+            border-color: #8e44ad !important;
+            color: #ffffff !important;
+        }
+        
+        /* Скрываем кнопку локализации */
+        #localization-button {
+            display: none !important;
+        }
+ /* Выравнивание кнопок */
+        .header-anon__buttons {
+            display: flex !important;
+            align-items: center !important;
+            gap: 15px !important;
+        }
+        
+        .header-anon__button {
+            margin: 0 !important;
+        }
+        
+        .button_margin-left-20 {
+            margin-left: 0 !important;
+        }
