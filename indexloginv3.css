@@ -31,8 +31,3 @@
     gap: 15px !important; /* Увеличили расстояние между кнопками */
     flex-wrap: nowrap !important; /* Запрещаем перенос */
 }
-.header-anon__button a.button_blue {
-    color: #ff6b00;
-    border-color: #ff6b00;
-}
-
