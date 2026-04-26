@@ -43,14 +43,7 @@
             margin-right: 8px;
         }
      /* Стили для валидации */
-        .input_with-message {
-            border-color: #ff9800 !important;
-        }
-        .input_with-message:focus {
-            border-color: #ff9800 !important;
-            box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.2) !important;
-        }
-        
+
         /* Стили для кнопки Актив ОО */
         .header-anon__button a.button.button_purple_outline {
             background: transparent !important;
