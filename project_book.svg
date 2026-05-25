@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Блокнот -->
+  <rect x="2" y="3" width="9" height="14" fill="#ffe0b2" stroke="#ef6c00" stroke-width="1" rx="2"/>
+  <!-- Линии -->
+  <line x1="3" y1="6" x2="10" y2="6" stroke="#ff9800" stroke-width="0.5"/>
+  <line x1="3" y1="9" x2="10" y2="9" stroke="#ff9800" stroke-width="0.5"/>
+  <line x1="3" y1="12" x2="10" y2="12" stroke="#ff9800" stroke-width="0.5"/>
+  <!-- Спираль -->
+  <circle cx="2.5" cy="6" r="0.5" fill="#ef6c00"/>
+  <circle cx="2.5" cy="9" r="0.5" fill="#ef6c00"/>
+  <circle cx="2.5" cy="12" r="0.5" fill="#ef6c00"/>
+  
+  <!-- Карандаш -->
+  <rect x="12" y="5" width="2.5" height="12" fill="#81d4fa" stroke="#0277bd" stroke-width="0.5"/>
+  <polygon points="12,5 14.5,5 13.25,2" fill="#424242" stroke="#424242" stroke-width="0.5"/>
+  <rect x="12" y="17" width="2.5" height="2" fill="#ba68c8" stroke="#6a1b9a" stroke-width="0.5"/>
+  
+  <!-- Глобус -->
+  <circle cx="19" cy="12" r="3" fill="#c5e1a5" stroke="#33691e" stroke-width="0.5"/>
+  <!-- Меридианы -->
+  <line x1="19" y1="9" x2="19" y2="15" stroke="#33691e" stroke-width="0.5"/>
+  <line x1="16" y1="12" x2="22" y2="12" stroke="#33691e" stroke-width="0.5"/>
+  <!-- Доп. дуги -->
+  <path d="M16.5,10 A3,3 0 0,1 21.5,10" fill="none" stroke="#33691e" stroke-width="0.5"/>
+  <path d="M16.5,14 A3,3 0 0,0 21.5,14" fill="none" stroke="#33691e" stroke-width="0.5"/>
+</svg>
